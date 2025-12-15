@@ -1,9 +1,6 @@
 abm-targeted-information-risk
 
-============================================================
 Overview
-============================================================
-
 This repository provides a reproducible agent-based simulation framework
 for the quantitative modeling of targeted information attacks and
 decision-oriented risk in organizational settings.
@@ -19,10 +16,7 @@ This implementation accompanies and operationalizes an academic study
 on information warfare, organizational decision-making, and systemic risk.
 
 
-============================================================
 Key Features
-============================================================
-
 - Agent-Based Modeling (ABM)
   * Employees with heterogeneous beliefs, cognitive limits, and social behavior
   * Managerial decision-making under uncertainty and cognitive load
@@ -57,10 +51,7 @@ Key Features
   * Phase diagrams and confidence intervals
 
 
-============================================================
 Repository Structure
-============================================================
-
 .
 ├── notebooks/
 │   ├── 01_dataset_and_simulation.ipynb
@@ -78,12 +69,8 @@ Repository Structure
 └── requirements.txt
 
 
-============================================================
 Methodological Summary
-============================================================
-
 At each simulation step:
-
 1. The attacker selects targets based on network position and prior rewards.
 2. Information propagates through formal and informal channels.
 3. Employees update beliefs under cognitive and informational constraints.
@@ -100,10 +87,7 @@ Monte Carlo repetitions are used to estimate distributions, confidence
 intervals, and phase transitions.
 
 
-============================================================
 How to Run (Recommended: Google Colab)
-============================================================
-
 1. Open and run the notebooks in order:
    - 01_dataset_and_simulation.ipynb
    - 02_monte_carlo.ipynb
@@ -117,22 +101,15 @@ How to Run (Recommended: Google Colab)
 No external datasets are required.
 
 
-============================================================
 Reproducibility
-============================================================
-
 - All simulations are seed-controlled
 - Configuration files are stored alongside outputs
 - Monte Carlo runs are isolated to avoid overwriting
 - Results can be regenerated directly from the source documents
 
 
-============================================================
 Intended Use
-============================================================
-
 This repository is intended for:
-
 - Academic research in information security and decision science
 - Graduate-level projects and theses
 - Agent-based modeling of organizational risk
