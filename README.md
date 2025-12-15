@@ -51,24 +51,6 @@ Key Features
   * Phase diagrams and confidence intervals
 
 
-Repository Structure
-.
-├── notebooks/
-│   ├── 01_dataset_and_simulation.ipynb
-│   ├── 02_monte_carlo.ipynb
-│   ├── 03_analysis_and_plots.ipynb
-│   └── 04_extract_and_reproduce.ipynb
-│
-├── data/
-│   └── abm_risk_dataset/
-│
-├── docs/
-│   └── paper_inputs/
-│
-├── README.txt
-└── requirements.txt
-
-
 Methodological Summary
 At each simulation step:
 1. The attacker selects targets based on network position and prior rewards.
